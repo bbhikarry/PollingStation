@@ -91,17 +91,17 @@ xaringanExtra::use_panelset()
 ```{r xaringanExtra, echo=FALSE}
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
-## Before we begin:
+## Help is here 
 
-  - These pages are slides. The Left and Right **arrow keys are friends**
+To make AGM 2023 an experience   
 
-  - What follows is a list of instructions meant to make AGM 2023 an experience.   
-  
-  - Find and Keep your four digit THTA ID handy. (*recheck Inbox for Lana's email assigning it to you*)
+  - These pages work like slides. The Left and Right **arrow keys are friends**
 
-  - To get a quick view of what's ahead Press **"O"**
+  - Voting? Find and Keep your four digit THTA ID handy. (**recheck your Inbox** for Lana's email)
 
-  - Or use **Right Arrow** key for the next slide. 
+  - Explore. Get a quick view of what's ahead. Press **"O"**
+
+  - Once more. **Right Arrow** key takes you thru the slides. 
 
 ---
 
@@ -115,8 +115,18 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 1. [Tour Guides](#)
 
 ---
-## About Biana Edwards (today's Facilitator)
+## About the Facilitator
 
+.left-column[
+### Bianna&nbsp;Edwards
+]
+
+.right-column[
+
+Managing Director/Facilitator  
+I&eacute; Consulting  
+2006 to Present (*17 years strong*)
+]
 
 
 ---
