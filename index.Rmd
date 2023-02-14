@@ -14,6 +14,7 @@ output:
       highlightLines: true
       ratio: 16:9
       countIncrementalSlides: true
+      
 ---
 
 ```{r setup, echo=FALSE}
@@ -32,7 +33,7 @@ knitr::opts_chunk$set(
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_mono_accent(
-  base_color = "#1c5253",
+  base_color = "#0B0B61",
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Montserrat", "300", "300i"),
   code_font_google   = google_font("Fira Mono")
@@ -83,13 +84,14 @@ xaringanExtra::use_panelset()
 ```{r xaringanExtra, echo=FALSE}
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
-## Help is here 
 
-To make AGM 2023 an experience   
+## Your digital brief
 
-  - These pages work like slides. The Left and Right **arrow keys are friends**
+Make THTA AGM 2023 a good virtual experience   
 
-  - Voting? Find and Keep your four digit THTA ID handy. (**recheck your Inbox** for Lana's email)
+  - These pages work like slides. Use Left and Right **arrow keys ** to navigate.
+
+  - Intend to voting? Find and Keep your four digit THTA ID handy. (**recheck your Inbox** for Lana's email)
 
   - Explore. Get a quick view of what's ahead. Press **"O"**
 
@@ -107,6 +109,7 @@ To make AGM 2023 an experience
 1. [Tour Guides](#)
 
 ---
+
 ## About the Facilitator
 
 .left-column[
@@ -116,79 +119,144 @@ To make AGM 2023 an experience
 ]
 
 .right-column[
+Managing Director/Facilitator    
+I&eacute; Consulting    
+2006 to Present (*17 years strong*)  
+]
 
-Managing Director/Facilitator  
-I&eacute; Consulting  
-2006 to Present (*17 years strong*)
+---
+
+## AGM 2023 Procedure
+
+1.  **REVIEW & CONFIRM** MINUTES OF THE PREVIOUS AGM 1. **PRESIDENT’S REPORT** (Presentation)  
+1. **AUDITED ACCOUNTS** FOR YEAR ENDED 
+1. **APPOINT** AUDITORS  
+1. **OTHER BUSINESS**    
+1. **ELECT** NEW DIRECTORS   
+
+
+--- 
+
+## Minutes of last AGM
+
+.left-column[
+
+[Click to read](#)
+
+]
+
+.right-column[
+
+- Motion to confirm minutes 
+    * Confirmed by   
+    * Seconded by
+- Motion to Accept Minutes
+    * Moved by
+    * Accepted by show of hands (Virtual or Chat)
+]
+
+---
+
+## Financial Report 2019 - 2020
+
+**Livestream**? Or a pre-taped video?
+
+which fits right here by the way
+
+---
+
+## President's Report 
+
+.left-column[
+
+  **Is this a video or livestream**?   
+
+  
+]
+
+.right-column[
+ 
+1. Report in 3 formats. 
+  * [Clink to download as PDF](#)
+  * [Audio](#)
+  * [YOU TUBE Video](#)
+1. Board demits office
+1. Outgoing Board introduces Facilitator (Ms Edwards)
+
 ]
 
 
 ---
-
-## About today's Agenda 
-
-#### A sequence (block)diagramme goes here
- 
- **Maybe a link to the digital copy of the programme?**
-
----
-## Report 2019 - 2020
-
-**Livestream**? or a pre-taped video?
-
-*which fits right here by the way*
-
----
 ## Overview of todays electoral process
 
-**We explain the tech and how use it to vote**
----
-## About the Executive positions
+**We explain the technology driving todays' election and how you will use it to vote**
 
-**Bianna explains the hierarchy of the THTA committees**
+---
+## About THTA Board structure
+
+Facilitator describe the Executive and Ordinary Board hierarchy
+
+???
+Ms Edwards explains the hierarchy of the THTA committees
 ---
  
 ## About the directorships (an overview)
 
 .left-column[
 
-Hotels (*4 Dir*)
+### Ten directorships 
+
+*to answer to them all*
+
+]
+
+
+.right-column[
+
+**Hotel sector** (*4 Dir*)
+
 <!-- shall from among their members elect four (4) Directors to represent them.   -->
- Guesthouses/B&B's (*1 Dir*)
+
+**Guesthouse/B&B sector** (*1 Dir*)
  
  <!-- operators shall from among their members elect one (1) Director to represent them   -->
  
-Villa Agencies (*1 Dir*)
+**Villa sector** (*1 Dir*)
 
 <!-- Property Managers shall from among their members elect one (1) Director to represent them -->
 
- Restaurants (*1 Dir*)
+**Restaurant sector** (*1 Dir*)
+
  <!-- owners or managers shall from among their members elect one (1) Director to represent them -->
  
- ]
+
  
- .right-column[
- 
- Marine/Dive operators (*1 Dir*)
+ ** Marine sector** (*1 Dir*)
  
  <!-- shall from among their members elect one (1) Director to represent them -->
 
 
-
-Incoming tours / Destination Mgrs (*1 Dir*)
+**Incoming Tour and Destination Mgmt sector** (*1 Dir*)
 
 <!-- managers shall from among their members elect one (1)Director to represent them -->
 
-  Allied Services  (*1 Dir*)
+**Allied Services sector**  (*1 Dir*)
 
  <!-- shall from among their members elect one (1) Director to represent them.   -->
 ]
 ---
-## Call for nominations 
+## Nominations 
+
+
+---
+
+## Nominations Marine Sector  
+
+<!-- change 'nomination' to 'selection' -->
 
 .left-column[
 
-#### Diveshops / Other Marine 
+### Marine sector
 
 
 ![](images/marineadv.jpeg)
