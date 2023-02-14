@@ -113,7 +113,8 @@ Make THTA AGM 2023 a good virtual experience
 ## About the Facilitator
 
 .left-column[
-### Bianna&nbsp;Edwards   
+
+#### Bianna&nbsp;Edwards   
 
 ![](https://drive.google.com/uc?export=view&id=1Pbjp5yp0O4F3Xh0r8q973XQK4yj7DP_O)  
 ]
@@ -198,6 +199,7 @@ Facilitator describe the Executive and Ordinary Board hierarchy
 
 ???
 Ms Edwards explains the hierarchy of the THTA committees
+
 ---
  
 ## About the directorships (an overview)
@@ -245,9 +247,10 @@ Ms Edwards explains the hierarchy of the THTA committees
  <!-- shall from among their members elect one (1) Director to represent them.   -->
 ]
 ---
+
 ## Nominations 
 
-
+ xyz and more
 ---
 
 ## Nominations Marine Sector  
@@ -263,10 +266,10 @@ Ms Edwards explains the hierarchy of the THTA committees
 
 ]
 
-.right-column[]
+.right-column[
 
 **One Directorship up for grabs**
-
+]
 ---
 ## Diagram of Process
 
