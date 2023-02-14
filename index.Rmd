@@ -114,7 +114,7 @@ Make THTA AGM 2023 a good virtual experience
 
 .left-column[
 
-#### Bianna&nbsp;Edwards   
+##### Bianna &nbsp; Edwards   
 
 ![](https://drive.google.com/uc?export=view&id=1Pbjp5yp0O4F3Xh0r8q973XQK4yj7DP_O)  
 ]
@@ -126,14 +126,13 @@ I&eacute; Consulting
 ]
 
 ---
-
 ## AGM 2023 Procedure
 
-1.  **REVIEW & CONFIRM** MINUTES OF THE PREVIOUS AGM 1. **PRESIDENT’S REPORT** (Presentation)  
-1. **AUDITED ACCOUNTS** FOR YEAR ENDED 
-1. **APPOINT** AUDITORS  
-1. **OTHER BUSINESS**    
-1. **ELECT** NEW DIRECTORS   
+1.**REVIEW & CONFIRM** MINUTES OF THE PREVIOUS AGM 1.**PRESIDENT’S REPORT** (*Presentation*)  
+1.**AUDITED ACCOUNTS** FOR YEAR ENDED (...)
+1.**APPOINT** AUDITORS  
+1.**OTHER BUSINESS**    
+1.**ELECT** NEW DIRECTORS   
 
 
 --- 
@@ -148,21 +147,13 @@ I&eacute; Consulting
 
 .right-column[
 
-- Motion to confirm minutes 
-    * Confirmed by   
-    * Seconded by
+- Confirmation of minutes 
+    * <input type= "checkbox" unchecked> Confirmed </input>   
+    * <input type= "checkbox" unchecked> Seconded </input>
 - Motion to Accept Minutes
-    * Moved by
-    * Accepted by show of hands (Virtual or Chat)
+    * <input type= "checkbox" unchecked> Moved</input>
+    * <input type= "checkbox" unchecked> Ratified</input>
 ]
-
----
-
-## Financial Report 2019 - 2020
-
-**Livestream**? Or a pre-taped video?
-
-which fits right here by the way
 
 ---
 
@@ -181,8 +172,26 @@ which fits right here by the way
   * [Clink to download as PDF](#)
   * [Audio](#)
   * [YOU TUBE Video](#)
-1. Board demits office
-1. Outgoing Board introduces Facilitator (Ms Edwards)
+
+]
+
+
+
+---
+
+## Financial Report 2019 - 2020
+.panelset.sideway[
+Some verbose comment goes here
+.panel[.panel-name[Presentation]
+![](images/fiscal.png)
+]
+
+.panel[.panel-name[Auditing]
+
+Something about new auditors. 
+
+Q: Should the old board be deciding on the Auditor? Probably a good thing to bring this item into a discussion
+]
 
 ]
 
