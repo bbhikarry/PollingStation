@@ -128,8 +128,9 @@ I&eacute; Consulting
 ---
 ## AGM 2023 Procedure
 
+  1. WELCOME
   
-  1. **REVIEW & CONFIRM** MINUTES OF THE PREVIOUS AGM   
+  1. **REVIEW & CONFIRM** MINUTES OF THE 2020 AGM   
     - [See Draft](#)
   1. **PRESIDENT’S REPORT**
     - [PDF](#)
@@ -208,7 +209,36 @@ Q: Should the old board be deciding on the Auditor? Probably a good thing to bri
 ---
 ## Overview of todays electoral process
 
-**We explain the technology driving todays' election and how you will use it to vote**
+```{r, echo=FALSE}
+DiagrammeR::grViz("
+digraph {
+graph [rankdir= TB]
+
+# nodes 
+
+node [shape = box, fontname="Josefin Sans"]
+
+A [label='Nominations for Pres', shape = invhouse]; 
+B [label= 'Whiteboard', shape = box]; 
+C [label='Results whiteboarded', shape = box]; 
+D [label= 'Repeat for VP', shape = invhouse]; 
+# E [label= 'Repeat above process', shape= invtriangle];
+G [label='Poll (Google Form)', shape= tab]; 
+H [label='Congratulations', shape= signature]; 
+
+
+# edges
+
+A->B->C->D [arrowsize=0.3, color=gray];
+B->G-> C [shape =plaintext, label = 'Some large explanation here'];
+C->H [shape =invisible, label = ''];
+
+
+
+}
+")
+
+```
 
 ---
 ## About THTA Board structure

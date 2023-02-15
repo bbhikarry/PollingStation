@@ -20,6 +20,10 @@
     <script src="index_files/tile-view/tile-view.js"></script>
     <link href="index_files/animate.css/animate.xaringan.css" rel="stylesheet" />
     <link href="index_files/tachyons/tachyons.min.css" rel="stylesheet" />
+    <script src="index_files/htmlwidgets/htmlwidgets.js"></script>
+    <script src="index_files/viz/viz.js"></script>
+    <link href="index_files/DiagrammeR-styles/styles.css" rel="stylesheet" />
+    <script src="index_files/grViz-binding/grViz.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -145,8 +149,9 @@ I&amp;eacute; Consulting
 ---
 ## AGM 2023 Procedure
 
+  1. WELCOME
   
-  1. **REVIEW &amp; CONFIRM** MINUTES OF THE PREVIOUS AGM   
+  1. **REVIEW &amp; CONFIRM** MINUTES OF THE 2020 AGM   
     - [See Draft](#)
   1. **PRESIDENT’S REPORT**
     - [PDF](#)
@@ -225,7 +230,8 @@ Q: Should the old board be deciding on the Auditor? Probably a good thing to bri
 ---
 ## Overview of todays electoral process
 
-**We explain the technology driving todays' election and how you will use it to vote**
+<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-57497f155ff16c66dc55" style="width:100%;height:252px;"></div>
+<script type="application/json" data-for="htmlwidget-57497f155ff16c66dc55">{"x":{"diagram":"\ndigraph {\ngraph [rankdir= TB]\n\n# nodes \n\nnode [shape = box]\n\nA [label=\"Nominations for Pres\", shape = invhouse]; \nB [label= \"Whiteboard\", shape = box]; \nC [label=\"Results whiteboarded\", shape = box]; \nD [label= \"Repeat for VP\", shape = invhouse]; \n# E [label= \"Repeat above process\", shape= invtriangle];\nG [label=\"Poll (Google Form)\", shape= tab]; \nH [label=\"Congratulations\", shape= signature]; \n\n\n# edges\n\nA->B->C->D [arrowsize=0.3, color=gray];\nB->G-> C [shape =plaintext, label = \"Some large explanation here\"];\nC->H [shape =invisible, label = \"\"];\n\n\n\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
 ---
 ## About THTA Board structure
