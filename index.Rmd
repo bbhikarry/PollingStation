@@ -185,9 +185,11 @@ In 2014 Biana created TeaBago Teas blending past and present in a brand infused 
 
  **See Report**   [Clink to download](#)
  
- ---
+
+ 
 <!--
 
+---
 
 ## Financial Report 2019 - 2020
 .panelset.sideway[
@@ -205,6 +207,7 @@ Q: Should the old board be deciding on the Auditor? Probably a good thing to bri
 
 ]
 -->
+
 ---
 ## About THTA Board structure
 
@@ -220,15 +223,15 @@ Q: Should the old board be deciding on the Auditor? Probably a good thing to bri
 
 .right-column[
 
-**Hotel sector** (*4 Dir*)
+**Large Accommodations** (*4 Dir*)
 
 <!-- shall from among their members elect four (4) Directors to represent them.   -->
 
-**Guesthouse/B&B sector** (*1 Dir*)
+**Small Accommodations** (*1 Dir*)
  
  <!-- operators shall from among their members elect one (1) Director to represent them   -->
  
-**Villa sector** (*1 Dir*)
+**Villas and Cottages** (*1 Dir*)
 
 <!-- Property Managers shall from among their members elect one (1) Director to represent them -->
 
@@ -236,22 +239,18 @@ Q: Should the old board be deciding on the Auditor? Probably a good thing to bri
 
  <!-- owners or managers shall from among their members elect one (1) Director to represent them -->
  
-
+**Marine sector** (*1 Dir*)
  
- ** Marine sector** (*1 Dir*)
- 
- <!-- shall from among their members elect one (1) Director to represent them -->
+<!-- shall from among their members elect one (1) Director to represent them -->
 
-
-**Incoming Tour and Destination Mgmt sector** (*1 Dir*)
+**Destination Management** (*1 Dir*)
 
 <!-- managers shall from among their members elect one (1)Director to represent them -->
 
-**Allied Services sector**  (*1 Dir*)
+**Allied Sector**  (*1 Dir*)
 
  <!-- shall from among their members elect one (1) Director to represent them.   -->
 ]
-
 ---
 
 ## Overview of todays electoral process
@@ -266,8 +265,8 @@ graph [rankdir= TB]
 node [shape = box]
 
 A [label='Nominations for Appointment', shape = invhouse, fontname= Helvetica, fontsize= 22]; 
-B [label= 'Whiteboard', shape = box,fontname= Helvetica, fontsize=20]; 
-C [label='Results whiteboarded', shape = box, fontname= Helvetica, fontsize=20]; 
+B [label= 'Whiteboard', shape = plaintext,fontname= Helvetica, fontsize=20, filled= true, color=white]; 
+C [label='Results whiteboarded', shape = plaintext, fontname= Helvetica, fontsize=20, filled=true, color=white]; 
 D [label= 'Repeat for other appointments', shape = invhouse, fontname= Helvetica, fontsize=20]; 
 G [label='Poll (Google Form)', shape= tab, fontname= Helvetica, fontsize=20]; 
 H [label='Congratulations', shape= signature, fontname= Helvetica, fontsize= 20]; 
