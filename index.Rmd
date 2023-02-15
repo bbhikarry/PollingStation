@@ -1,6 +1,6 @@
 ---
 title: "Cheatsheet"
-subtitle: "for getting the best from today's election"  
+subtitle: "Get the best from today's AGM"  
 author: 
   - "Bianna Edwards"
   - "Sean McCoon"  
@@ -165,43 +165,29 @@ In 2014 Biana created TeaBago Teas blending past and present in a brand infused 
 
 .left-column[
 
-[Click to read](#)
+[Click to read](https://drive.google.com/file/d/1eLWTv6pE3kfz5KsGeYPMHvwTOvLOJIpt/view?usp=share_link)
 
 ]
 
 .right-column[
 
-- Confirmation of minutes 
-    * <input type= "checkbox" unchecked> Confirmed </input>   
-    * <input type= "checkbox" unchecked> Seconded </input>
-- Motion to Accept Minutes
-    * <input type= "checkbox" unchecked> Moved</input>
-    * <input type= "checkbox" unchecked> Ratified</input>
+**Confirmation of minutes** 
+
+  <input type= "checkbox" unchecked> Confirmed </input>   
+  
+  
+  <input type= "checkbox" unchecked> Seconded </input>
 ]
 
 ---
-
 ## President's Report 
 
-.left-column[
 
-  **Is this a video or livestream**?   
-
-  
-]
-
-.right-column[
+ **See Report**   [Clink to download](#)
  
-1. Report in 3 formats. 
-  * [Clink to download as PDF](#)
-  * [Audio](#)
-  * [YOU TUBE Video](#)
+ ---
+<!--
 
-]
-
-
-
----
 
 ## Financial Report 2019 - 2020
 .panelset.sideway[
@@ -218,21 +204,10 @@ Q: Should the old board be deciding on the Auditor? Probably a good thing to bri
 ]
 
 ]
-
+-->
 ---
 ## About THTA Board structure
 
-Facilitator describe the Executive and Ordinary Board hierarchy
-
-???
-Ms Edwards explains the hierarchy of the THTA committees
-
-
-
-
----
-
-## About the available positions (overview)
 
 .left-column[
 
@@ -281,7 +256,7 @@ Ms Edwards explains the hierarchy of the THTA committees
 
 ## Overview of todays electoral process
 
-```{r, echo=FALSE}
+```{r echo=FALSE}
 
 DiagrammeR::grViz("
 digraph {
@@ -290,16 +265,16 @@ graph [rankdir= TB]
 
 node [shape = box]
 
-A [label='Nominations for Pres', shape = invhouse, fontname= Helvetica]; 
-B [label= 'Whiteboard', shape = box,fontname= Helvetica]; 
-C [label='Results whiteboarded', shape = box, fontname= Helvetica]; 
-D [label= 'Repeat for VP', shape = invhouse, fontname= Helvetica]; 
-G [label='Poll (Google Form)', shape= tab, fontname= Helvetica  ]; 
-H [label='Congratulations', shape= signature, fontname= Helvetica]; 
+A [label='Nominations for Appointment', shape = invhouse, fontname= Helvetica, fontsize= 22]; 
+B [label= 'Whiteboard', shape = box,fontname= Helvetica, fontsize=20]; 
+C [label='Results whiteboarded', shape = box, fontname= Helvetica, fontsize=20]; 
+D [label= 'Repeat for other appointments', shape = invhouse, fontname= Helvetica, fontsize=20]; 
+G [label='Poll (Google Form)', shape= tab, fontname= Helvetica, fontsize=20]; 
+H [label='Congratulations', shape= signature, fontname= Helvetica, fontsize= 20]; 
 
   edge [arrowhead=normal] 
 
-B->C->D[arrowsize=0.3, color=gray];
+# B->C->D[arrowsize=0.3, color=gray];
 A -> B;
 B -> G-> C;
 H -> D;
@@ -314,32 +289,6 @@ subgraph{rank=same;
 ```
 
 ---
-
-## Nominations Marine Sector  (Sample slide)
-
-<!-- change 'nomination' to 'selection' -->
-
-.left-column[
-
-### Marine sector
-
-
-![](images/marineadv.jpeg)
-
-]
-
-.right-column[
-
-**One Directorship up for grabs**
-]
----
-## Diagram of Process
-
-Using DiagrammeR.
-
-![](images/hotel.svg)
-
----
-## Safe travels
+## Thank you and Good Afternoon
 
 <center><img src="images/bye.png" height="400px"/></center>
