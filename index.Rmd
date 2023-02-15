@@ -91,22 +91,38 @@ Make THTA AGM 2023 a good virtual experience
 
   - These pages work like slides. Use Left and Right **arrow keys ** to navigate.
 
-  - Intend to voting? Find and Keep your four digit THTA ID handy. (**recheck your Inbox** for Lana's email)
+  - Intend to vote? Find and Keep your four digit THTA ID handy. (**recheck your Inbox** for Lana's email)
 
   - Explore. Get a quick view of what's ahead. Press **"O"**
 
-  - Once more. **Right Arrow** key takes you thru the slides. 
+  - Once more. **Arrow** keys take you thru the slides. 
 
 ---
 
 ## Links to Pollsheets 
 
-1. [Large Hotels](#) 
+.right-column[
+**Ensure** you have your 4 digit THTA Member ID (*supplied by Lana*).
+
+**Then** Click on the appropriate hyperlink to access a Google Form. 
+
+**Type** in that Member ID, tick radio button to **Select** a candidate.
+
+**Submit**, Done.I
+
+*Estimated time for this exercise is 90 sec*
+
+]
+.left-column[
+1. [**Large Hotels**](#) 
 1. [Small Hotels](#)
 1. [Apartments and Guesthouses](#)
 1. [Allied Services](#)
 1. [Restaurants](#)
 1. [Tour Guides](#)
+
+*Links are expediently activated/deactivated (by Facilitator)*.
+]
 
 ---
 
