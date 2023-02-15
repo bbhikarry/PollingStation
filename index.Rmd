@@ -205,41 +205,6 @@ Q: Should the old board be deciding on the Auditor? Probably a good thing to bri
 
 ]
 
-
----
-## Overview of todays electoral process
-
-```{r, echo=FALSE}
-DiagrammeR::grViz("
-digraph {
-graph [rankdir= TB]
-
-# nodes 
-
-node [shape = box, fontname="Josefin Sans"]
-
-A [label='Nominations for Pres', shape = invhouse]; 
-B [label= 'Whiteboard', shape = box]; 
-C [label='Results whiteboarded', shape = box]; 
-D [label= 'Repeat for VP', shape = invhouse]; 
-# E [label= 'Repeat above process', shape= invtriangle];
-G [label='Poll (Google Form)', shape= tab]; 
-H [label='Congratulations', shape= signature]; 
-
-
-# edges
-
-A->B->C->D [arrowsize=0.3, color=gray];
-B->G-> C [shape =plaintext, label = 'Some large explanation here'];
-C->H [shape =invisible, label = ''];
-
-
-
-}
-")
-
-```
-
 ---
 ## About THTA Board structure
 
@@ -248,9 +213,12 @@ Facilitator describe the Executive and Ordinary Board hierarchy
 ???
 Ms Edwards explains the hierarchy of the THTA committees
 
+
+
+
 ---
- 
-## About the directorships (an overview)
+
+## About the available positions (overview)
 
 .left-column[
 
@@ -294,14 +262,46 @@ Ms Edwards explains the hierarchy of the THTA committees
 
  <!-- shall from among their members elect one (1) Director to represent them.   -->
 ]
+
 ---
 
-## Nominations 
+## Overview of todays electoral process
 
- xyz and more
+```{r, echo=FALSE}
+
+DiagrammeR::grViz("
+digraph {
+
+graph [rankdir= TB]
+
+node [shape = box]
+
+A [label='Nominations for Pres', shape = invhouse, fontname= Helvetica]; 
+B [label= 'Whiteboard', shape = box,fontname= Helvetica]; 
+C [label='Results whiteboarded', shape = box, fontname= Helvetica]; 
+D [label= 'Repeat for VP', shape = invhouse, fontname= Helvetica]; 
+G [label='Poll (Google Form)', shape= tab, fontname= Helvetica  ]; 
+H [label='Congratulations', shape= signature, fontname= Helvetica]; 
+
+  edge [arrowhead=normal] 
+
+B->C->D[arrowsize=0.3, color=gray];
+A -> B;
+B -> G-> C;
+H -> D;
+
+subgraph{rank=same;
+{C G H}
+}
+
+}
+")
+
+```
+
 ---
 
-## Nominations Marine Sector  
+## Nominations Marine Sector  (Sample slide)
 
 <!-- change 'nomination' to 'selection' -->
 
