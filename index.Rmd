@@ -173,10 +173,10 @@ In 2014 Biana created TeaBago Teas blending past and present in a brand infused 
 
 **Confirmation of minutes** 
 
-  <input type= "checkbox" unchecked> Confirmed </input>   
+<p>  <input type= "checkbox" unchecked> Confirmed </input>  </p> 
   
   
-  <input type= "checkbox" unchecked> Seconded </input>
+  <p><input type= "checkbox" unchecked> Seconded </input></p>
 ]
 
 ---
@@ -185,28 +185,6 @@ In 2014 Biana created TeaBago Teas blending past and present in a brand infused 
 
  **See Report**   [Clink to download](#)
  
-
- 
-<!--
-
----
-
-## Financial Report 2019 - 2020
-.panelset.sideway[
-Some verbose comment goes here
-.panel[.panel-name[Presentation]
-![](images/fiscal.png)
-]
-
-.panel[.panel-name[Auditing]
-
-Something about new auditors. 
-
-Q: Should the old board be deciding on the Auditor? Probably a good thing to bring this item into a discussion
-]
-
-]
--->
 
 ---
 ## About THTA Board structure
@@ -251,6 +229,7 @@ Q: Should the old board be deciding on the Auditor? Probably a good thing to bri
 
  <!-- shall from among their members elect one (1) Director to represent them.   -->
 ]
+
 ---
 
 ## Overview of todays electoral process
@@ -268,7 +247,7 @@ A [label='Nominations for Appointment', shape = invhouse, fontname= Helvetica, f
 B [label= 'Whiteboard', shape = plaintext,fontname= Helvetica, fontsize=20, filled= true, color=white]; 
 C [label='Results whiteboarded', shape = plaintext, fontname= Helvetica, fontsize=20, filled=true, color=white]; 
 D [label= 'Repeat for other appointments', shape = invhouse, fontname= Helvetica, fontsize=20]; 
-G [label='Poll (Google Form)', shape= tab, fontname= Helvetica, fontsize=20]; 
+G [label='Poll (Google Form)', shape= tab, fontname= Helvetica, fontsize=20, filled=true,color=aquamarine]; 
 H [label='Congratulations', shape= signature, fontname= Helvetica, fontsize= 20]; 
 
   edge [arrowhead=normal] 
@@ -297,7 +276,7 @@ subgraph{rank=same;
 
 
 ---
-## Thank you and Good Afternoon
+## Thank you for coming
 
 <center><img src="images/bye.png" height="400px"/></center>
 ---
