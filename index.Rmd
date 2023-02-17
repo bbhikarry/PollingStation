@@ -40,6 +40,9 @@ style_mono_accent(
 )
 ```
 
+
+
+
 ```{r, include=FALSE}
 library(countdown) 
 ```
@@ -121,7 +124,7 @@ Make THTA AGM 2023 a good virtual experience
 1. [Restaurants](#)
 1. [Tour Guides](#)
 
-*Links are expediently activated/deactivated (by Facilitator)*.
+*Links to the voting forms activated/deactivated (by Facilitator)*.
 ]
 
 ---
@@ -268,11 +271,44 @@ subgraph{rank=same;
 
 
 ---
-## Nominations
+## Qualifiers
 
+.panelset[
 
+.panel[.panel-name[Nominations]
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRznNY3Bw-aRXYIjnEXgv4S_CJMRhCj7GQIe1jjSaVdsALBIRMgfFNO2QJ9QOKvpgB4GViGY9tidx2F/pubhtml?widget=true&amp;headers=false" width="750" height="400"></iframe>
+]
 
+.panel[.panel-name[Large hotels ]
+
+
+
+
+```{r echo=FALSE, message=TRUE, warning=TRUE, paged.print=TRUE}
+
+library(readr)
+large1a <- read.csv("sheets/largeSheet1.csv", header=TRUE, stringsAsFactors=FALSE, nrows= 18)
+lgh = large1a[c(1, 4)]
+print(lgh)
+
+```
+]
+
+.panel[.panel-name[More large hotels ]
+
+```{r echo = FALSE, message=TRUE, warning=TRUE, paged.print=TRUE}
+library(readr)
+large1b <- read.csv("sheets/largeSheet1.csv", header=TRUE, stringsAsFactors=FALSE, skip=18, nrows=19)
+jkl = large1b[c(1, 4)]
+print(jkl)
+
+```
+]
+
+
+]
+
+]
 
 
 ---
