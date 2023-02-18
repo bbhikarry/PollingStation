@@ -284,7 +284,7 @@ subgraph{rank=same;
 ```{r echo=FALSE, message=TRUE, warning=TRUE, paged.print=TRUE}
 
 library(readr)
-large1a <- read.csv("sheets/largeSheet1.csv", header=TRUE, stringsAsFactors=FALSE, nrows= 18, col.names=c("PROPERTY", "", "","REPRESENTATIVE","", "","","","",""))
+large1a <- read.csv("sheets/largeSheet1.csv", header=TRUE, stringsAsFactors=FALSE, nrows= 18, col.names=c("PROPERTY NAME", "", "","Representative","", "","","","",""))
 lgh = large1a[c(1, 4)]
 print(lgh)
 ```
@@ -303,20 +303,22 @@ print(read_csv)
 
 ```{r echo = FALSE, message=TRUE, warning=TRUE, paged.print=TRUE}
 library(readr)
-large1b <- read.csv("sheets/largeSheet1.csv", stringsAsFactors=TRUE, skip=19, nrows=19, encoding= 'utf-8', header=FALSE, col.names=c("PROPERTY", "", "","REPRESENTATIVE","", "","","","",""))
+large1b <- read.csv("sheets/largeSheet1.csv", stringsAsFactors=TRUE, skip=19, nrows=19, encoding= 'utf-8', header=FALSE, col.names=c("PROPERTY NAME", "", "","REPRESENTATIVE","", "","","","",""))
                     
 jkl = large1b[c(1, 4) ]
-print(jkl)
 
+print(jkl)
 ```
 ]
 
 .panel[.panel-name[Small Hotels]
-```{r echo=FALSE, paged.print=TRUE}
+
+```{r echo=FALSE, message=FALSE, warning=TRUE,  paged.print=FALSE, show_col_types=FALSE}
 
 library(readr)
 
-smallaccs <- read_csv("sheets/smallAcc.csv")
+smallaccs <- read_csv("sheets/smallAcc.csv", skip=1,
+ col_names=c("PROPERTY NAME","REPRESENTATIVE", "UNIQUE ID"))
 
 smx = smallaccs[c(1, 2, 3)]
     

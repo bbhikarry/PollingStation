@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="author" content="Bianna Edwards" />
     <meta name="author" content="Sean McCoon" />
-    <meta name="date" content="2023-02-17" />
+    <meta name="date" content="2023-02-18" />
     <script src="index_files/header-attrs/header-attrs.js"></script>
     <script src="index_files/js-cookie/js.cookie.js"></script>
     <script src="index_files/peerjs/peerjs.min.js"></script>
@@ -43,7 +43,7 @@ class: center, middle, inverse, title-slide
 ### Sean McCoon
 ]
 .date[
-### 2023-02-17
+### 2023-02-18
 ]
 
 ---
@@ -258,8 +258,8 @@ In 2014 Biana created TeaBago Teas blending past and present in a brand infused 
 
 ## Overview of todays electoral process
 
-<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-7901e200e0dc1c22bebe" style="width:100%;height:252px;"></div>
-<script type="application/json" data-for="htmlwidget-7901e200e0dc1c22bebe">{"x":{"diagram":"\ndigraph {\n\ngraph [rankdir= TB]\n\nnode [shape = box]\n\nA [label=\"Nominations for Appointment\", shape = invhouse, fontname= Helvetica, fontsize= 22]; \nB [label= \"Whiteboard\", shape = plaintext,fontname= Helvetica, fontsize=20, filled= true, color=white]; \nC [label=\"Results whiteboarded\", shape = plaintext, fontname= Helvetica, fontsize=20, filled=true, color=white]; \nD [label= \"Repeat for other appointments\", shape = invhouse, fontname= Helvetica, fontsize=20]; \nG [label=\"Poll (Google Form)\", shape= tab, fontname= Helvetica, fontsize=20, filled=true,color=aquamarine]; \nH [label=\"Congratulations\", shape= signature, fontname= Helvetica, fontsize= 20]; \n\n  edge [arrowhead=normal] \n\n# B->C->D[arrowsize=0.3, color=gray];\nA -> B;\nB -> G-> C;\nH -> D;\n\nsubgraph{rank=same;\n{C G H}\n}\n\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-fad620884bfe12298429" style="width:100%;height:252px;"></div>
+<script type="application/json" data-for="htmlwidget-fad620884bfe12298429">{"x":{"diagram":"\ndigraph {\n\ngraph [rankdir= TB]\n\nnode [shape = box]\n\nA [label=\"Nominations for Appointment\", shape = invhouse, fontname= Helvetica, fontsize= 22]; \nB [label= \"Whiteboard\", shape = plaintext,fontname= Helvetica, fontsize=20, filled= true, color=white]; \nC [label=\"Results whiteboarded\", shape = plaintext, fontname= Helvetica, fontsize=20, filled=true, color=white]; \nD [label= \"Repeat for other appointments\", shape = invhouse, fontname= Helvetica, fontsize=20]; \nG [label=\"Poll (Google Form)\", shape= tab, fontname= Helvetica, fontsize=20, filled=true,color=aquamarine]; \nH [label=\"Congratulations\", shape= signature, fontname= Helvetica, fontsize= 20]; \n\n  edge [arrowhead=normal] \n\n# B->C->D[arrowsize=0.3, color=gray];\nA -> B;\nB -> G-> C;\nH -> D;\n\nsubgraph{rank=same;\n{C G H}\n}\n\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
 
 ---
@@ -275,7 +275,7 @@ In 2014 Biana created TeaBago Teas blending past and present in a brand infused 
 
 
 ```
-##                               PROPERTY            REPRESENTATIVE
+##                          PROPERTY.NAME            Representative
 ## 1                   Bacolet Beach Club        Gloria Jones Knapp
 ## 2                Belleviste Apartments             Mary Almandoz
 ## 3                      Blue Waters Inn         Marcel van Reeken
@@ -310,7 +310,7 @@ print(read_csv)
 
 
 ```
-##                                PROPERTY              REPRESENTATIVE
+##                           PROPERTY.NAME              REPRESENTATIVE
 ## 1                            Le Chateau              Joshua Stewart
 ## 2                       TECU Coral Reef        Vernella Jack Joseph
 ## 3                Starfish Tobago Resort               Leslie Amedee
@@ -335,9 +335,10 @@ print(read_csv)
 
 .panel[.panel-name[Small Hotels]
 
+
 ```
 ## # A tibble: 57 × 3
-##    PROPERTYNAME                REPRESENTATIVE     EMAIL                         
+##    `PROPERTY NAME`             REPRESENTATIVE     `UNIQUE ID`                   
 ##    &lt;chr&gt;                       &lt;chr&gt;              &lt;chr&gt;                         
 ##  1 Tropical Apartments         Gillian Gibson     gibsongillian707@gmail.com    
 ##  2 Bananaquit Apartments       Rachel Best        bananaquit.tobago@gmail.com   
