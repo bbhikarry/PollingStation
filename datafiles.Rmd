@@ -5,28 +5,26 @@ output:
   html_document:
     df_print: paged
 ---
+Lifted a CSV from a Google spreadsheet, saved to the 'sheets'  folder in the workng directory. On examination decided to give the columns new, more intuitive. The content I require begins on the 3rd row, so will skip the first two rows. Code shown below.
 
-
-```{r echo=TRUE, message=TRUE, warning=TRUE, paged.print=FALSE, show_col_types=TRUE}
+```{r message=TRUE, warning=TRUE, include=FALSE, paged.print=FALSE, show_col_types=TRUE}
 
 library(readr)
 paidup <- read_csv("sheets/THTA-PaidUP-Sheet1.csv", 
-        skip=2,
-              col_names=c("PROPERTY","", "", "","UNIQUEID")
-        
-)
-
+        # skipping because of unwanted header and foll row
+                   skip=2 ,
+        col_names=c("PROPERTY","", "", "","UNIQUEID")
+        )
+# Put to print elsewhere
 lmn = paidup[c(1, 5) ]
-
-
 ```
 
-```{r echo=TRUE, message=TRUE, warning=TRUE, paged.print=FALSE, show_col_types=TRUE}
+```{r message=TRUE, warning=TRUE, include=FALSE, paged.print=FALSE, show_col_types=TRUE}
 
 library(readr)
 
 smallaccs <- read_csv("sheets/smallAcc.csv")
-
+# out to print elsewhere on page
 smx = smallaccs[c(1, 2, 3)]
        
 ```
@@ -46,12 +44,13 @@ Since the dataframes will be embedded into a Xaringan slide (an HTML page) and t
 
 But importantly will move on to 'read_csv' output as 
 
-### Output. Large hotels
+### Output. Paid up folks
 
-```{r echo=TRUE}
-print.AsIs(lmn)
+```{r echo=FALSE}
+print(lmn)
 
 ```
+
 
 ### Output Small hotels
 
