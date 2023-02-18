@@ -271,7 +271,7 @@ subgraph{rank=same;
 
 
 ---
-## Qualifiers
+## Qualified to vote
 
 .panelset[
 
@@ -281,30 +281,47 @@ subgraph{rank=same;
 
 .panel[.panel-name[Large hotels ]
 
-
-
-
 ```{r echo=FALSE, message=TRUE, warning=TRUE, paged.print=TRUE}
 
 library(readr)
-large1a <- read.csv("sheets/largeSheet1.csv", header=TRUE, stringsAsFactors=FALSE, nrows= 18)
+large1a <- read.csv("sheets/largeSheet1.csv", header=TRUE, stringsAsFactors=FALSE, nrows= 18, col.names=c("PROPERTY", "", "","REPRESENTATIVE","", "","","","",""))
 lgh = large1a[c(1, 4)]
 print(lgh)
-
 ```
 ]
 
 .panel[.panel-name[More large hotels ]
 
+<!-- set col.names = c("Age","Gender","height","weight")
+
+
+# Use UTF-8 encoding
+read_csv = read.csv('/Users/admin/file_noheader.csv', encoding='utf-8')
+print(read_csv)
+
+--->
+
 ```{r echo = FALSE, message=TRUE, warning=TRUE, paged.print=TRUE}
 library(readr)
-large1b <- read.csv("sheets/largeSheet1.csv", header=TRUE, stringsAsFactors=FALSE, skip=18, nrows=19)
-jkl = large1b[c(1, 4)]
+large1b <- read.csv("sheets/largeSheet1.csv", stringsAsFactors=TRUE, skip=19, nrows=19, encoding= 'utf-8', header=FALSE, col.names=c("PROPERTY", "", "","REPRESENTATIVE","", "","","","",""))
+                    
+jkl = large1b[c(1, 4) ]
 print(jkl)
 
 ```
 ]
 
+.panel[.panel-name[Small Hotels]
+```{r echo=FALSE, paged.print=TRUE}
+
+library(readr)
+
+smallaccs <- read_csv("sheets/smallAcc.csv")
+
+smx = smallaccs[c(1, 2, 3)]
+    
+print(smx)   
+```
 
 ]
 
