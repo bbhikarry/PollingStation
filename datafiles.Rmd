@@ -1,68 +1,61 @@
 ---
 title: "R Notebook"
+subtitle: "Read CSV files into dataframes, publish to a webpage" 
 output:
   html_document:
     df_print: paged
 ---
 
 
+```{r echo=TRUE, message=TRUE, warning=TRUE, paged.print=FALSE, show_col_types=TRUE}
 
-```{r echo=TRUE, message=TRUE, warning=TRUE, paged.print=TRUE}
-allied <- read.csv("sheets/alliedSheet1.csv", header=FALSE, stringsAsFactors=FALSE)
+library(readr)
+paidup <- read_csv("sheets/THTA-PaidUP-Sheet1.csv", 
+        skip=2,
+              col_names=c("PROPERTY","", "", "","UNIQUEID")
+        
+)
+
+lmn = paidup[c(1, 5) ]
+
+
 ```
 
-```{r echo=TRUE, message=TRUE, warning=TRUE, paged.print=TRUE}
-large1 <- read.csv("sheets/largeSheet1.csv", header=TRUE, stringsAsFactors=FALSE)
+```{r echo=TRUE, message=TRUE, warning=TRUE, paged.print=FALSE, show_col_types=TRUE}
+
+library(readr)
+
+smallaccs <- read_csv("sheets/smallAcc.csv")
+
+smx = smallaccs[c(1, 2, 3)]
+       
 ```
 
 
+**The idea**: Read several CSV files into dataframes, embedding output into a Xaringan slideshow. 
 
+## First: Getting ready to code 
 
+I'm using RMarkdown, so several options are available but here's how it'll swing. Beneath is my prep game (requisites)
 
-```{r, echo=TRUE, message=TRUE, warning=TRUE, paged.print=TRUE}
-paidup <- read.csv("sheets/THTA-PaidUP-Sheet1.csv", header=FALSE, stringsAsFactors = FALSE)
+  1. An Rmarkdown Notebook. Invaluable for testing code away from project .Rmd or .R scripts  
+  1. CVS data in local project folder. Placed like  "sheets/file.csv"  
+  1. Install/update R's readr package (*part of the TidyVerse*)     
 
-```
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+Since the dataframes will be embedded into a Xaringan slide (an HTML page) and today's exercise is solely about reading, customising and testing 'read.csv'.
 
-## Allied Sector
+But importantly will move on to 'read_csv' output as 
 
-```{r, echo=FALSE}
-print(allied)
-```
-
-
-
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
-
-
-## Large Accommodation Sector
+### Output. Large hotels
 
 ```{r echo=TRUE}
-
-a = large1[, c(1)]
-print(a)
-
-
+print.AsIs(lmn)
 
 ```
 
+### Output Small hotels
 
+```{r echo=TRUE}
+print(smx)
 
-## Plot Cars
-
-```{r}
-plot(cars)
 ```
-
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
-
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
-
-## Paid up
-
-```{r, echo=FALSE}
-print(paidup)
-```
-
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
